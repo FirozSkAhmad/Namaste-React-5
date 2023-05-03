@@ -1,0 +1,52 @@
+.header-con {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-con {
+    width: 100px;
+    overflow: hidden;
+  }
+  
+  .logo-con > img {
+    width: 100%;
+  }
+  
+  .nav-items {
+    padding-right: 20px;
+  }
+  
+  .nav-items > ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+  }
+  
+  .nav-items > ul > li {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .resCard-con {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .resCard-con>img{
+      width: 100%;
+  }
+  
+  .res-con{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap:20px
+  }
+  
+  .resCard-con:hover{
+      cursor: pointer;
+      border: 1px solid black;
+  }
